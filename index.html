@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title> Anand Mukund - PortFolio</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img src="./assets/photo_id_08.png" alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Anand Mukund</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#education"> Education </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#work"> Work </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#projects"> Projects </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello 👋</span>
+          <span class="heading-primary__main">
+            I'm Anand Mukund! A Software Developer Crafting Cutting-Edge Software Solutions That Drive Innovation and
+            Empower Users.
+          </span>
+        </h1>
+        <a href="./assets/AnandMukundResume.pdf" download>
+          <button class="btn btn-inv home-hero__btn-theme">Download Resume</button>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                I am a passionate and hardworking individual who is always ready for new challenges, eager to learn more
+                and grow professionally.</span>
+              Software Developer skilled in Java, MySQL, AWS and Linux, dedicated to crafting exceptional solutions.
+              Seeking to contribute innovation
+              and excellence to IT sector companies.
+            </p>
+            <button class="btn btn-theme about__btn-theme">Projects</button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">github</li>
+              <li class="about__skill">linux</li>
+              <li class="about__skill">AWS</li>
+              <li class="about__skill">Java</li>
+              <li class="about__skill">MySQL</li>
+              <li class="about__skill">PHP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-linux-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-amazonwebservices-original colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-java-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-mysql-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-php-plain colored"></i>
+      </li>
+    </ul>
+  </section>
+
+  <section id="education" class="education main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary education__heading-secondary">
+        <span class="heading-secondary__sm"> Education 📚</span>
+      </h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="v-progress">
+        <ul>
+          <li class="v-progress-item inprogress">
+            Bachelor of Technology, Information Technology - 2024
+            <div class="education__details">
+              <div class="education__item">
+                <p class="text-primary">MIT Academy of Engineering, Alandi, Pune</p>
+                <p class="text-primary">CGPA: 8.5/10.0</p>
+              </div>
+            </div>
+          </li>
+          <li class="v-progress-item completed">
+            HSC MSBSHSE, Science - 2020
+            <div class="education__details">
+              <div class="education__item">
+                <p class="text-primary">C. S. KOTHARI Highschool, NANDURA</p>
+                <p class="text-primary">Percentage: 78.40%</p>
+              </div>
+            </div>
+          </li>
+          <li class="v-progress-item completed">
+            SSC MSBSHSE - 2018
+            <div class="education__details">
+              <div class="education__item">
+                <p class="text-primary">C. S. KOTHARI Jr College, NANDURA</p>
+                <p class="text-primary">Percentage: 84.60%</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="work main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary work__heading-secondary">
+        <span class="heading-secondary__sm">Work Experience 💼</span>
+      </h2>
+      <div class="work__list">
+        <div class="work__item">
+          <div class="work__bullet" style="background-image: url('./assets/persistent_systems_logo.png')"></div>
+          <h3 class="heading-tertiary">Persistent Systems, Remote</h3>
+          <p class="text-primary"><span>Jul 2023 - Aug 2023</span>
+            <b>Key Skills:</b>
+          </p>
+          <ul class="work__skills">
+            <li class="work__skill">Linux</li>
+            <li class="work__skill">DBMS</li>
+            <li class="work__skill">Computer Networking</li>
+            <li class="work__skill">Python</li>
+          </ul>
+        </div>
+        <div class="work__item">
+          <div class="work__bullet" style="background-image: url('./assets/TDG-logo.png')"></div>
+          <h3 class="heading-tertiary">The Digital Group</h3>
+          <p class="text-primary"><span>Feb 2024 - Present</span>
+            <b>Key Skills:</b>
+          </p>
+          <ul class="work__skills">
+            <li class="work__skill">Java</li>
+            <li class="work__skill">Spring</li>
+            <li class="work__skill">SpringBoot</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of the projects that I created with the project details ...
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/e-commerce.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                E-Commerce Platform
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  The objective of this project is to develop a general
+                  purpose e-commerce store where products like clothes,
+                  accessories can be bought.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  However, The development process of the website is still going on.
+                </span>
+              </p>
+              <a href="https://lifestorestyle.000webhostapp.com/index.php"
+                class="btn btn-theme projects__btn-theme">Live Link</a>
+              <a href="https://github.com/Adi1121/Life-Stores" class="btn btn-inv projects__btn-inv">Code Link</a>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/drowsy.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Driver-Drowsiness-Detection
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This project aims to develop a drowsiness detection system
+                  that monitors eyes to prevent car accidents caused by driver
+                  fatigue. When drowsiness is detected, a warning signal alerts
+                  the driver.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  The system judges alertness non-invasively and
+                  can slow down and stop the vehicle if the driver doesn't
+                  respond to the alert.
+                </span>
+              </p>
+              <a href="https://drive.google.com/drive/folders/1BOxtWDisX5T-nvs_OJiBVTIcTDwTAm40?usp=sharing"
+                class="btn btn-theme projects__btn-theme">Code Link</a>
+            </div>
+          </div>
+          <div class="projects__list-item-count">
+            <span class="projects__list-item-count-num"> 2 </span>
+            <span class="projects__list-item-count-line"> </span>
+            <span class="projects__list-item-count-end-dot"> </span>
+          </div>
+        </div>
+        <div class="projects__list-item">
+          <div class="projects__list-item-count">
+            <span class="projects__list-item-count-num"> 3 </span>
+            <span class="projects__list-item-count-line"> </span>
+            <span class="projects__list-item-count-end-dot"> </span>
+          </div>
+          <div class="projects__list-item-details">
+            <div class="projects__list-item-img-cont">
+              <img src="./assets/home_automation.png" alt="Project Image" class="projects__list-item-img" />
+            </div>
+            <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+              AWS-based Smart Home Solution
+            </h3>
+            <!-- <hr class="projects__title-text-divider" /> -->
+
+            <p class="text-primary projects__list-item-text-primary">
+              <span>
+                Implemented IoT motion detection using an ESP8266 microcontroller, AWS IoT Core, and ultrasonic sensor.
+              </span>
+              <!-- <br />
+                  <br /> -->
+              <span>
+                Data securely transmitted to AWS cloud, triggering alerts via MQTT.</span>
+            </p>
+            <a href="https://github.com/Adi1121/aws-home-automation" class="btn btn-theme projects__btn-theme">Code
+              Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact 📞</span>
+        <span class="heading-secondary__main">
+          Contact me by submitting the form below
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form" id="contactForm">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Name</label>
+              <input id="name" placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="email" class="contact__form-field-label">Email</label>
+              <input id="email" placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="message" class="contact__form-field-label">Message</label>
+              <textarea id="message" placeholder="Enter Your Message" name="message" cols="30" rows="10"
+                class="contact__form-field-input"></textarea>
+            </div>
+            <button type="button" class="contact__form-submit" id="submitBtn">Submit</button>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/Adi1121" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.instagram.com/anandmukund08/" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/anand-mukund-79634823b/" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="./script.js"></script>
+  <script>
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    document.getElementById('submitBtn').addEventListener('click', function () {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+
+      var subject = 'Message from ' + name;
+      var body = 'Name: ' + name + '\nEmail: ' + email + '\n\nMessage: ' + message;
+
+      var mailtoLink = 'mailto:anand.mukund@mitaoe.ac.in' + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+      window.location.href = mailtoLink;
+    });
+
+  </script>
+</body>
+
+</html>
